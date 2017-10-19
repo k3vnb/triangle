@@ -11,8 +11,10 @@ $(document).ready(function() {
         alert("Whoo boy! You've got an equileteral triangle on your hands!");
       } else if (sideA + sideB <= sideC || sideB + sideC <= sideA || sideA + sideC <= sideB) {
         alert("That, my friend, is no triangle! That is a lie!");
+      } else if (sideA === sideB || sideA === sideC || sideB === sideC) {
+        alert("I see you gotta isosceles.")
       } else {
-        alert("end");
+        alert("Looks like you've been dealt a scalene triangle, bud!")
       };
 
 

@@ -1,0 +1,26 @@
+{
+  "name": "triangle",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lemurriot/triangle.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lemurriot/triangle/issues"
+  },
+  "homepage": "https://github.com/lemurriot/triangle#readme",
+  "devDependencies": {
+    "bower-files": "^4.0.0",
+    "browserify": "^14.5.0",
+    "gulp": "^3.9.1",
+    "jasmine": "^2.8.0",
+    "vinyl-source-stream": "^2.0.0"
+  }
+}

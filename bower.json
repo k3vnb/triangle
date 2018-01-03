@@ -1,0 +1,21 @@
+{
+  "name": "triangle",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Kevin Boyle <papershack@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/lemurriot/triangle",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "bootstrap": "^3.3.7"
+  }
+}
